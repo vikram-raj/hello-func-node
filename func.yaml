@@ -17,7 +17,6 @@ run:
   - name: MY_API_KEY
     value: '{{ env:API_KEY }}'
 deploy:
-  namespace: viraj
   annotations: {}
   options: {}
   labels: []
