@@ -13,7 +13,7 @@ run:
   volumes: []
   envs:
   - name: MY_API_KEY
-    value: '{{ env:API_KEY }}'
+    value: '{{ env:12345 }}'
 deploy:
   annotations: {}
   options: {}
