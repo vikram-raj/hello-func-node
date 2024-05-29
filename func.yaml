@@ -7,7 +7,6 @@ invocation:
   format: http
 build:
   buildpacks: []
-  builder: pack
   buildEnvs: []
 run:
   volumes: []
